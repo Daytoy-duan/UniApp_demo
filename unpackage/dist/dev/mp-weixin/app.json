@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feeds/feeds",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#7685c2",
+    "color": "#ffffff",
+    "selectedColor": "#2b7fbd",
+    "list": [
+      {
+        "iconPath": "/static/tabbar-icons/index.png",
+        "selectedIconPath": "/static/tabbar-icons/index_s.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "./static/tabbar-icons/feeds.png",
+        "selectedIconPath": "/static/tabbar-icons/feeds_s.png",
+        "pagePath": "pages/feeds/feeds",
+        "text": "动态"
+      },
+      {
+        "iconPath": "/static/tabbar-icons/me.png",
+        "selectedIconPath": "/static/tabbar-icons/me_s.png",
+        "pagePath": "pages/me/me",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
